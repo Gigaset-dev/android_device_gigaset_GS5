@@ -1420,6 +1420,7 @@ vendor/etc/sensors/hals.conf
 vendor/lib/libhwm.so
 vendor/lib/libimgsensorca.so
 vendor/lib/librgbwlightsensor.so
+vendor/lib/libsensorndkbridge.so:vendor/lib/libsensorndkbridge-v30.so
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/sensors.mt6768.so
 vendor/lib64/hw/vibrator.mt6768.so
@@ -1433,6 +1434,7 @@ vendor/lib64/librgbwlightsensor.so
 vendor/lib64/libsensor_custom.so
 vendor/lib64/libem_sensor_jni.so
 vendor/lib64/libprizeem_sensor_jni.so
+vendor/lib64/libsensorndkbridge.so:vendor/lib64/libsensorndkbridge-v30.so
 vendor/app/HorCali/HorCali.apk
 vendor/app/SensorHub/SensorHub.apk
 
