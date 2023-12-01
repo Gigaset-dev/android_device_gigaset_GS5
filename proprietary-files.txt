@@ -1,4 +1,4 @@
-# Unpinned blobs from GS5-user 12 SP1A.210812.016 1685498763 release-keys
+# Unpinned blobs from GS5-user 13 TP1A.220624.014 1693463242 release-keys
 
 # AAL
 vendor/lib/libaal_cust.so
@@ -262,7 +262,6 @@ vendor/etc/bst_filter_config.cfg
 vendor/etc/bstbeauty.cfg
 vendor/etc/control_param_AiScene_encode.cfg
 vendor/lib64/libtensorflowlite.so
-vendor/lib64/libtensorflowlite_c.so
 vendor/lib64/libvtclib.so
 vendor/lib64/libBSTAiScene.so
 vendor/lib64/libBSTBackLightDetect.so
@@ -359,7 +358,6 @@ vendor/lib/libcam.halsensor.hwintegration.so
 vendor/lib/libcameracustom.plugin.so
 vendor/lib/libfcell.so
 vendor/lib64/libfcell.so
-vendor/lib64/libloadfilterhal.so
 vendor/lib64/libmorpho_Superlowlight.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -849,7 +847,6 @@ vendor/etc/security/cacerts/76579174.0
 vendor/etc/security/cacerts/7892ad52.0
 vendor/etc/security/cacerts/7a7c655d.0
 vendor/etc/security/cacerts/7a819ef2.0
-vendor/etc/security/cacerts/7c302982.0
 vendor/etc/security/cacerts/81b9768f.0
 vendor/etc/security/cacerts/82223c44.0
 vendor/etc/security/cacerts/83e9984f.0
@@ -890,7 +887,6 @@ vendor/etc/security/cacerts/bc3f2570.0
 vendor/etc/security/cacerts/bd43e1dd.0
 vendor/etc/security/cacerts/bdacca6f.0
 vendor/etc/security/cacerts/bf64f35b.0
-vendor/etc/security/cacerts/c2c1704e.0
 vendor/etc/security/cacerts/c491639e.0
 vendor/etc/security/cacerts/c51c224c.0
 vendor/etc/security/cacerts/c559d742.0
@@ -900,7 +896,6 @@ vendor/etc/security/cacerts/cb1c3204.0
 vendor/etc/security/cacerts/ccc52f49.0
 vendor/etc/security/cacerts/cf701eeb.0
 vendor/etc/security/cacerts/d06393bb.0
-vendor/etc/security/cacerts/d0cddf45.0
 vendor/etc/security/cacerts/d16a5865.0
 vendor/etc/security/cacerts/d18e9066.0
 vendor/etc/security/cacerts/d39b0a2c.0
@@ -1028,7 +1023,6 @@ vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
 vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc
 vendor/etc/init/volte_clientapi_ua.rc
-vendor/etc/init/volte_rcs_ua.rc
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
 vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib/libipsec_ims_shr.so
@@ -1125,7 +1119,6 @@ vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
-vendor/lib/libmvpu_config_data.so
 vendor/lib/libstagefrighthw.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libMtkOmxCore.so
@@ -1147,7 +1140,6 @@ vendor/lib64/libthha.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodecdrv_header_stub.so
 vendor/lib64/libvpu5.so
-vendor/lib64/libmvpu_config_data.so
 vendor/lib64/libstagefrighthw.so
 
 # Media (OMX)
