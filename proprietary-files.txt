@@ -379,6 +379,9 @@ vendor/lib64/lib3a.flash.so
 vendor/lib64/lib3a.gma.so
 vendor/lib64/lib3a.lce.so
 vendor/lib64/lib3a.log.so
+vendor/lib64/libbstFilterCapture.so
+vendor/lib64/libabfadp.so
+vendor/lib64/libcamalgo.abf.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/bf2253Lmacro_mipi_raw_IdxMgr.so
 vendor/lib64/bf2253Lmacro_mipi_raw_tuning.so
