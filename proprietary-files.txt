@@ -335,7 +335,7 @@ system_ext/lib64/vendor.mediatek.hardware.touchll@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 # Camera
-lib64/libjni_pq.so|d21f54f51d5bd1f0659d9390f12544c9ceaaffc9
+lib64/libjni_pq.so
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/lib/libasn1c_core.so
@@ -1082,11 +1082,11 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 vendor/bin/meta_tst
 
-# Kernel Power Off Charging (KPOC) - from TP1A.220624.014
-bin/kpoc_charger|473b4f1b18b8a2b79b3d2c5028cc3f3634f7e836
-etc/init/kpoc_charger.rc|3fb4409bb355ae302148afac7e65a87423d6d43c
-lib64/libshowlogo.so|385803d9d62d0be3fbd821318a8370bde90eef1e
-lib64/libsysenv_system.so|9f6ee564fab5013393a9025fa252fcde13ca045d
+# Kernel Power Off Charging (KPOC)
+bin/kpoc_charger
+etc/init/kpoc_charger.rc
+lib64/libshowlogo.so
+lib64/libsysenv_system.so
 
 # Media Codecs
 vendor/bin/jpegtool
