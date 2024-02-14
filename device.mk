@@ -93,6 +93,14 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth.audio@2.1-impl
 
+# Boot control
+PRODUCT_PACKAGES += \
+    android.hardware.boot-service.default \
+    android.hardware.boot-service.default_recovery
+
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
@@ -134,6 +142,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_BUILD_DEBUG_BOOT_IMAGE := true
 
+# Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
 
@@ -391,15 +400,6 @@ PRODUCT_COPY_FILES += \
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ff_key.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ff_key.kl
-
-# Fastboot
-PRODUCT_PACKAGES += \
-    android.hardware.boot@1.2-service \
-    android.hardware.boot@1.2-mtkimpl \
-    android.hardware.boot@1.2-mtkimpl.recovery \
-
-PRODUCT_PACKAGES_DEBUG += \
-    bootctl
 
 # Secure Element
 PRODUCT_PACKAGES += \
