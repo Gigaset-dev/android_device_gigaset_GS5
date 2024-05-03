@@ -5,7 +5,6 @@
 # Audio
 ro.audio.silent=0
 ro.audio.usb.period_us=16000
-ro.config.vc_call_vol_steps=9
 
 # Brand
 Build.BRAND=MTK
