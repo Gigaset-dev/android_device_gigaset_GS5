@@ -25,7 +25,6 @@ vendor/lib64/libapusys.so
 vendor/lib64/libapusys_edma.so
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/mt6660_calibration
@@ -33,7 +32,6 @@ vendor/bin/rt5512_calibration
 vendor/etc/apdb/APDB_MT6768_S01__W2223
 vendor/etc/apdb/APDB_MT6768_S01__W2223_ENUM
 vendor/etc/AudioLog_dynamic.xml
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
