@@ -1,1 +1,3 @@
+allow nvram_daemon vendor_mtk_service_nvram_restore_prop:property_service { set };
+get_prop(nvram_daemon, vendor_mtk_service_nvram_restore_prop)
 get_prop(nvram_daemon, vendor_mtk_wmt_prop)
