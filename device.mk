@@ -118,7 +118,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4.vendor \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor \
-    libcamera2ndk_vendor
+    libcamera2ndk_vendor \
+    libexif.vendor \
+    libpng.vendor
 
 # DMC
 PRODUCT_PACKAGES += \
@@ -136,6 +138,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@4.0.vendor \
     android.hardware.graphics.composer@2.1-service \
     libdrm.vendor \
+    libexpat.vendor \
     libdrm
 
 # Dynamic Partitions
@@ -162,7 +165,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.visibility_control@1.0.vendor \
     android.hardware.gnss@1.1.vendor \
     android.hardware.gnss@2.1.vendor \
-    android.hardware.gnss-V1-ndk.vendor
+    android.hardware.gnss-V1-ndk.vendor \
+    libcurl.vendor
 
 # Health
 PRODUCT_PACKAGES += \
