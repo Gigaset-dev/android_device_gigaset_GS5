@@ -356,7 +356,8 @@ PRODUCT_PACKAGES += \
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio@1.6.vendor
+    android.hardware.radio@1.6.vendor \
+    libui_shim
 
 # RenderScript
 PRODUCT_PACKAGES += \
