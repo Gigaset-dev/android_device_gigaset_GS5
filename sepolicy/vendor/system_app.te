@@ -1,5 +1,4 @@
 get_prop(system_app, vendor_mtk_pq_ro_prop)
 binder_call(system_app, hal_light_default)
 binder_call(system_app, hal_memtrack_default)
-binder_call(system_app, mtk_hal_audio)
 binder_call(system_app, mtk_hal_gnss)
