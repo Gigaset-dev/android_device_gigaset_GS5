@@ -479,7 +479,7 @@ vendor/lib64/libmtkcam_hwutils.so
 vendor/lib64/libmtkcam_imem.so
 vendor/lib64/libmtkcam_imgbuf.so
 vendor/lib64/libmtkcam_metadata.so
-vendor/lib64/libmtkcam_metastore.so|f03fc78443c42cef486e9349951bc32a807bf0b8
+vendor/lib64/libmtkcam_metastore.so|5fa5dfd5a4a18eed7f5c5e853b2ce8ffafd371bc
 vendor/lib64/libmtkcam_modulefactory_aaa.so
 vendor/lib64/libmtkcam_modulefactory_custom.so
 vendor/lib64/libmtkcam_modulefactory_drv.so
